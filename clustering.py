@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-A = np.genfromtxt('data/flame.csv')
+A = np.genfromtxt('flame.csv')
 testdata = A.copy()[:,1:].astype('float')
 N = 4
 
